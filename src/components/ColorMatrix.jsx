@@ -1,7 +1,8 @@
 import './ColorMatrix.css'
+import React from 'react';
 
 
-const ColorMatrix = () => {
+const ColorMatrix = React.memo((props) => {
     const rows = 10;
     const columns = 10;
   
@@ -36,6 +37,6 @@ const ColorMatrix = () => {
     }
   
     return <div className="color-matrix">{matrix}</div>
-};
+});
 
 export default ColorMatrix
