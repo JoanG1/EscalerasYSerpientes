@@ -3,33 +3,34 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [playerPosition, setPlayerPosition] = useState(0)
+  const [diceResult , setDiceResult] = useState(0)
+
+  // Función para lanzar el dado y actualizar la posición del jugador
+  const rollDice = () => {
+    const diceResult = Math.floor(Math.random() * 6) + 1; // Lanzamiento de un dado de 6 caras
+    setDiceResult(diceResult)
+    const newPosition = playerPosition + diceResult
+    setPlayerPosition(newPosition)
+  };
+
+  const reset = () => {
+
+    setDiceResult(0)
+    setPlayerPosition(0)
+
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <h1>Escaleras y Serpientes</h1>
+      <p>Posición del jugador: {playerPosition}</p>
+      <p>Dado: {diceResult}</p>
+      <button onClick={rollDice}>Lanzar dado</button>
+      <button onClick={reset}>Reset</button>
+    </div>
+  );
 }
 
 export default App
