@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ColorMatrix from './components/ColorMatrix';
 
 const App = () => {
   const [playerPosition, setPlayerPosition] = useState(0)
@@ -23,12 +24,30 @@ const App = () => {
   }
 
   return (
-    <div>
-      <h1>Escaleras y Serpientes</h1>
-      <p>Posición del jugador: {playerPosition}</p>
-      <p>Dado: {diceResult}</p>
-      <button onClick={rollDice}>Lanzar dado</button>
-      <button onClick={reset}>Reset</button>
+    <div className='PrincipalDiv'>
+
+      <div className='DivRollDice'>
+
+        <div>
+
+          <h1>Escaleras y Serpientes</h1>
+          <p>Posición del jugador: {playerPosition}</p>
+          <p>Dado: {diceResult}</p>
+          <button onClick={rollDice}>Lanzar dado</button>
+          <button onClick={reset}>Reset</button>
+          
+
+        </div>
+
+      </div>
+      
+      <div className='DivMatrix'>
+
+      <ColorMatrix />
+
+      </div>
+    
+      
     </div>
   );
 }

@@ -1,0 +1,19 @@
+
+.color-matrix {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; /* Ajusta el ancho de acuerdo a tus necesidades */
+    justify-content: center;
+    
+    
+  }
+  
+  .color-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .color-cell {
+    width: 70px; /* Ajusta el ancho de cada celda según tus necesidades */
+    height: 70px; /* Ajusta la altura de cada celda según tus necesidades */
+  }
