@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ColorMatrix from './components/ColorMatrix';
+import OverlayCard from './components/CartaPregunta';
 
 
 const App = () => {
@@ -15,8 +16,11 @@ const App = () => {
   const rollDice = () => {
     const diceResult = Math.floor(Math.random() * 6) + 1; // Lanzamiento de un dado de 6 caras
     setDiceResult(diceResult)
-    const newPosition = playerPosition + diceResult
-    setPlayerPosition(newPosition)
+    if(playerPosition + diceResult <= 99 ){
+      const newPosition = playerPosition + diceResult
+      setPlayerPosition(newPosition)
+    }
+    
   };
 
   const reset = () => {
@@ -33,6 +37,8 @@ const App = () => {
 
   return (
     <div className='PrincipalDiv'>
+
+      <OverlayCard/>
 
       <div className='DivRollDice'>
 
