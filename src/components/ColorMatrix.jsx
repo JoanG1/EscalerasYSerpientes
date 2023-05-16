@@ -7,7 +7,6 @@ const ColorMatrix = React.memo((props) => {
     
     const rows = 10;
     const columns = 10;
-    let contador = 0;
 
     console.log(props.Dado)
   
@@ -15,60 +14,90 @@ const ColorMatrix = React.memo((props) => {
     const matrix = []
 
   
-    for (let i = 0; i < rows; i++) {
+    for (let raw = rows-1; raw >= 0; raw--) {
       const row = [];
-  
-      for (let j = 0; j < columns; j++) {
-        // Generar un color aleatorio (puedes ajustar esto según tus necesidades)
-        const color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
-          Math.random() * 256
-        )}, ${Math.floor(Math.random() * 256)})`;
-  
-        // Agregar el color a la fila
-        contador++
 
-        if(props.position == contador){
+      if(raw % 2 === 0){
 
+        for ( let column = columns - 1; column >= 0; column--) {
+
+
+          if(props.position == (raw*10)+column){
+
+            row.push(
+              <div 
+              position={(raw*10)+column}
+              key={`${raw}-${column}`}
+              className="color-cell"
+              style={{ backgroundColor: "#C8D5B9", border: "1px solid #000000"}}>
+              {(raw*10)+column}
+              </div>
+            );
+  
+  
+          }
+          else{
           row.push(
             <div 
-            position={contador}
-            key={`${i}-${j}`}
+            position={(raw*10)+column}
+            key={`${raw}-${column}`}
             className="color-cell"
-            style={{ backgroundColor: "red", border: "1px solid #000000"}}>
-            {contador}
+            style={{ backgroundColor: "#FAF3DD", border: "1px solid #000000", borderRadius:"5px"}}>
+            {(raw*10)+column}
             </div>
           );
-
-
-        }else{
-        row.push(
-          <div 
-          position={contador}
-          key={`${i}-${j}`}
-          className="color-cell"
-          style={{ backgroundColor: "white", border: "1px solid #000000"}}>
-          {contador}
-          </div>
-        );
+          }
+          
         }
+      }else{
 
-        
+        for (let column = 0; column < columns; column++) {
+
+
+          if(props.position == (raw*10)+column){
+
+            row.push(
+              <div 
+              position={(raw*10)+column}
+              key={`${raw}-${column}`}
+              className="color-cell"
+              style={{ backgroundColor: "#C8D5B9", border: "1px solid #000000"}}>
+              {(raw*10)+column}
+              </div>
+            );
+  
+  
+          }else{
+          row.push(
+            <div 
+            position={(raw*10)+column}
+            key={`${raw}-${column}`}
+            className="color-cell"
+            style={{ backgroundColor: "#FAF3DD", border: "1px solid #000000", borderRadius:"5px"}}>
+            {(raw*10)+column}
+            </div>
+          );
+          }
+          
+        }
       }
   
       // Agregar la fila a la matriz
       matrix.push(
-        <div key={i} className="color-row">
+        <div key={raw} className="color-row">
           {row}
         </div>
       );
     }
+
+
 
     
 
     console.log(matrix)
     console.log(ColorMatrix)
 
-    return <div className="color-matrix">{matrix}</div>
+    return <div className="color-matrix" style={{ borderRadius:"5px"}}>{matrix}</div>
 });
 
 
