@@ -7,8 +7,6 @@ const ColorMatrix = React.memo((props) => {
     
     const rows = 10;
     const columns = 10;
-
-    console.log(props.Dado)
   
     // Generar la matriz de colores
     const matrix = []
@@ -89,13 +87,6 @@ const ColorMatrix = React.memo((props) => {
         </div>
       );
     }
-
-
-
-    
-
-    console.log(matrix)
-    console.log(ColorMatrix)
 
     return <div className="color-matrix" style={{ borderRadius:"5px"}}>{matrix}</div>
 });
