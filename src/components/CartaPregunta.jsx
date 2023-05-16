@@ -3,6 +3,7 @@ import "./CartaPregunta.css"
 import preguntasData from "./Preguntas.json"
 import casillasPreguntas from "./CasillasPreguntas.json"
 
+let contador = 0
 
 const OverlayCard = React.memo((props) => {
 
@@ -10,7 +11,8 @@ const OverlayCard = React.memo((props) => {
   
   if (resultado){
 
-    const pregunta = preguntasData.preguntas[props.contador]
+    const pregunta = preguntasData.preguntas[contador]
+    contador++
 
     return (
       <div className='cartaPregunta'>

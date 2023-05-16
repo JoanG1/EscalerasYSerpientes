@@ -11,7 +11,6 @@ const App = () => {
 
   const [playerPosition, setPlayerPosition] = useState(0)
   const [diceResult , setDiceResult] = useState(0)
-  const [contador, setContador] = useState (0)
 
   // Función para lanzar el dado y actualizar la posición del jugador
   const rollDice = () => {
@@ -27,16 +26,14 @@ const App = () => {
 
   const reset = () => {
 
-    setDiceResult(0)
-    setPlayerPosition(0)
-    setContador(0)
+    window.location.reload()
 
   }
 
   return (
     <div className='PrincipalDiv'>
 
-      <OverlayCard position= {playerPosition} contador = {contador} />
+      <OverlayCard position= {playerPosition} />
 
       <div className='DivRollDice'>
 
