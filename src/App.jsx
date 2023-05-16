@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ColorMatrix from './components/ColorMatrix';
 
+
 const App = () => {
+
+
   const [playerPosition, setPlayerPosition] = useState(0)
   const [diceResult , setDiceResult] = useState(0)
 
@@ -22,6 +25,11 @@ const App = () => {
     setPlayerPosition(0)
 
   }
+
+  
+
+  
+
 
   return (
     <div className='PrincipalDiv'>
@@ -43,7 +51,7 @@ const App = () => {
       
       <div className='DivMatrix'>
 
-      <ColorMatrix />
+      <ColorMatrix position = {playerPosition}/>
 
       </div>
     
