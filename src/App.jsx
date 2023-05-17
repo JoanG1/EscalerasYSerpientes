@@ -23,22 +23,21 @@ const App = () => {
     
   };
 
+
   const reset = () => {
 
-    setDiceResult(0)
-    setPlayerPosition(0)
+    window.location.reload()
 
   }
-
-  
-
-  
-
 
   return (
     <div className='PrincipalDiv'>
 
+<<<<<<< HEAD
       <OverlayCard position = {playerPosition}/>
+=======
+      <OverlayCard position= {playerPosition} />
+>>>>>>> 1f4f3f27ef9851b938c25e44e7bb8e59ecf0df44
 
       <div className='DivRollDice'>
 
