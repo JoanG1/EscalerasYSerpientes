@@ -1,5 +1,7 @@
 import './ColorMatrix.css'
+import "./Escalera.css"
 import React, { useState } from 'react';
+import Escalera from "./Escalera"
 
 
 
@@ -88,7 +90,22 @@ const ColorMatrix = React.memo((props) => {
       );
     }
 
-    return <div className="color-matrix" style={{ borderRadius:"5px"}}>{matrix}</div>
+    return (
+    <div className="color-matrix" style={{ borderRadius:"5px"}}>
+      {matrix}
+      <Escalera className= "escalera1" escaleraTop = "escaleraTop1"/>
+      <Escalera className= "escalera2" escaleraTop = "escaleraTop2"/>
+      <Escalera className= "escalera3" escaleraTop = "escaleraTop3"/>
+      <Escalera className= "escalera4" escaleraTop = "escaleraTop4"/>
+      <Escalera className= "escalera5" escaleraTop = "escaleraTop5"/>
+      <Escalera className= "escalera6" escaleraTop = "escaleraTop6"/>
+      <Escalera className= "escalera7" escaleraTop = "escaleraTop7"/>
+      <Escalera className= "escalera8" escaleraTop = "escaleraTop8"/>
+      <Escalera className= "escalera9" escaleraTop = "escaleraTop9"/>
+      <Escalera className= "escalera10" escaleraTop = "escaleraTop10"/>
+      
+    </div>
+    )
 });
 
 
