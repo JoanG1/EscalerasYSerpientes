@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div className='PrincipalDiv'>
 
-      <OverlayCard/>
+      <OverlayCard position = {playerPosition}/>
 
       <div className='DivRollDice'>
 
