@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ColorMatrix from './components/ColorMatrix';
 import OverlayCard from './components/CartaPregunta';
+//import bandera from "./components/SeleccionMultiple"
 
 
 const App = () => {
@@ -33,11 +34,7 @@ const App = () => {
   return (
     <div className='PrincipalDiv'>
 
-<<<<<<< HEAD
-      <OverlayCard position = {playerPosition}/>
-=======
       <OverlayCard position= {playerPosition} />
->>>>>>> 1f4f3f27ef9851b938c25e44e7bb8e59ecf0df44
 
       <div className='DivRollDice'>
 
