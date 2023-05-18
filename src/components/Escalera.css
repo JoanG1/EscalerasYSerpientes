@@ -1,0 +1,190 @@
+.escalera1{
+
+    position:absolute;
+    width: 50px;
+    height: 200px;
+    top: 520px;
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop1{
+
+    transform: rotate(43deg);
+
+}
+
+.escalera2{
+
+    position:absolute;
+    width: 50px;
+    height: 220px;
+    top: 390px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop2{
+
+    transform: rotate(0deg  );
+
+}
+
+.escalera3{
+
+    position:absolute;
+    width: 50px;
+    height: 190px;
+    top: 440px;
+    left: 240px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop3{
+
+    transform: rotate(0deg);
+
+}
+
+.escalera4{
+
+    position:absolute;
+    width: 50px;
+    height: 170px;
+    top: 270px;
+    left: 490px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop4{
+
+    transform: rotate(40deg);
+
+}
+
+.escalera5{
+
+    position:absolute;
+    width: 50px;
+    height: 260px;
+    top: 200px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop5{
+
+    transform: rotate(305deg);
+
+}
+
+.escalera6{
+
+    position:absolute;
+    width: 50px;
+    height: 190px;
+    top: 150px;
+    left: 310px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop6{
+
+    transform: rotate(0deg);
+
+}
+
+.escalera7{
+
+    position:absolute;
+    width: 50px;
+    height: 220px;
+    top: 105px;
+    left: 670px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop7{
+
+    transform: rotate(0deg  );
+
+}
+
+.escalera8{
+
+    position:absolute;
+    width: 50px;
+    height: 220px;
+    top: 35px;
+    left: 560px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop8{
+
+    transform: rotate(345deg );
+
+}
+
+.escalera9{
+
+    position:absolute;
+    width: 50px;
+    height: 180px;
+    top: 90px;
+    left: 415px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop9{
+
+    transform: rotate(25deg );
+
+}
+
+.escalera10{
+
+    position:absolute;
+    width: 50px;
+    height: 180px;
+    top: 20px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.escaleraTop10{
+
+    transform: rotate(25deg );
+
+}
+

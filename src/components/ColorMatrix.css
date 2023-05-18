@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     width: auto; /* Ajusta el ancho de acuerdo a tus necesidades */
     justify-content: center;
+    position: relative;
   
   }
   
