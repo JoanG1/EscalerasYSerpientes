@@ -13,7 +13,12 @@ const CartaSeleccionMultiple = (props) => {
 
   const CompararRespuesta = () =>{
     if (respuesta === props.respuestaC){
+
+      props.handlePosition(true)
+      console.log("correcta")
         
+    }else{
+      console.log("falsa")
     }
   }
 

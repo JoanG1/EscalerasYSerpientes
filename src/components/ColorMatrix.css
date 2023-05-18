@@ -2,7 +2,7 @@
 .color-matrix {
     display: flex;
     flex-wrap: wrap;
-    width: auto; /* Ajusta el ancho de acuerdo a tus necesidades */
+    width: 740px;
     justify-content: center;
     position: relative;
   

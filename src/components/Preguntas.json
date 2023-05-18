@@ -3,140 +3,141 @@
     "preguntas": [
 
         {
-            "id": 1,
+            "id": 22,
             "texto": "¿Cuál es el objetivo principal de la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Brindar directrices para realizar auditorías internas de seguridad de la información",
             "respuestaF1": "Establecer requisitos para la gestión de la continuidad del negocio",
             "respuestaF2": "Proporcionar directrices para realizar auditorías internas de calidad"
         },
         {
-            "id": 2,
+            "id": 49,
             "texto": "¿Cuál es el alcance de la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Auditorías internas de sistemas de gestión de seguridad de la información",
             "respuestaF1": "Auditorías externas de sistemas de gestión de seguridad de la información",
             "respuestaF2": "Auditorías de cumplimiento legal y fiscal"
+
         },
         {
-            "id": 3,
+            "id": 33,
             "texto": "¿Cuál es el propósito de la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Brindar directrices para la realización de auditorías internas de seguridad de la información",
             "respuestaF1": "Establecer requisitos para la protección de datos personales",
             "respuestaF2": "Proporcionar directrices para la gestión de riesgos de seguridad de la información"
         },
         {
-            "id": 4,
+            "id": 5,
             "texto": "¿Cuál es el marco de referencia utilizado en la norma ISO/IEC 27007?",
             "respuestaCorrecta": "ISO/IEC 27001",
             "respuestaF1": "ITIL",
             "respuestaF2": "COBIT"
         },
         {
-            "id": 5,
+            "id": 7,
             "texto": "¿Qué tipo de enfoque promueve la norma ISO/IEC 27007 en las auditorías internas?",
             "respuestaCorrecta": "Enfoque basado en el riesgo",
             "respuestaF1": "Enfoque basado en la satisfacción del cliente",
             "respuestaF2": "Enfoque basado en la competencia técnica"
         },
         {
-            "id": 6,
+            "id": 1,
             "texto": "¿Cuál es el proceso clave cubierto por la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Evaluación y mejora del desempeño del SGSI",
             "respuestaF1": "Desarrollo de políticas de seguridad de la información",
             "respuestaF2": "Gestión de incidentes de seguridad "
         },
         {
-            "id": 7,
+            "id": 57,
             "texto": "¿Cuál es el objetivo de realizar auditorías internas según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Identificar oportunidades de mejora del SGSI",
             "respuestaF1": "Obtener certificaciones de seguridad de la información",
             "respuestaF2": "Validar el cumplimiento de los requisitos legales y normativos"
         },
         {
-            "id": 8,
+            "id": 25,
             "texto": "¿Qué elementos se consideran en la planificación de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Objetivos y alcance de la auditoría",
             "respuestaF1": "Contratación de auditores externos",
             "respuestaF2": "Evaluación de proveedores externos"
         },
         {
-            "id": 9,
+            "id": 69,
             "texto": "¿Cuál es el enfoque principal de la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Auditorías internas de seguridad de la información",
             "respuestaF1": "Auditorías de sistemas de gestión de calidad",
             "respuestaF2": "Implementación de controles técnicos de seguridad de la información"
         },
         {
-            "id": 10,
+            "id": 74,
             "texto": "¿Qué tipo de informe se debe generar al finalizar una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Informe de auditoría",
             "respuestaF1": "Informe de gestión de riesgos",
             "respuestaF2": "Informe de cumplimiento legal y fiscal"
         },
         {
-            "id": 11,
+            "id": 37,
             "texto": "¿Cuál es el objetivo de realizar una revisión del programa de auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Evaluar el desempeño del SGSI",
             "respuestaF1": "Verificar la competencia técnica de los auditores",
             "respuestaF2": "Validar el cumplimiento de los requisitos legales"
         },
         {
-            "id": 12,
+            "id": 80,
             "texto": "¿Cuál es el propósito de la fase de implementación de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Realizar la evaluación de los controles de seguridad",
             "respuestaF1": "Identificar los hallazgos y realizar recomendaciones",
             "respuestaF2": "Planificar las actividades de auditoría"
         },
         {
-            "id": 13,
+            "id": 97,
             "texto": "¿Cuál es el papel del auditor líder en una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Coordinar las actividades de auditoría",
             "respuestaF1": "Realizar pruebas técnicas de seguridad",
             "respuestaF2": "Revisar los informes de auditoría"
         },
         {
-            "id": 14,
+            "id": 58,
             "texto": "¿Qué tipo de evidencia se debe recopilar durante una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Documentación del SGSI y resultados de pruebas",
             "respuestaF1": "Políticas y procedimientos de recursos humanos",
             "respuestaF2": "Registros financieros de la organización"
         },
         {
-            "id": 15,
+            "id": 83,
             "texto": "¿Qué se debe hacer con los hallazgos de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Documentarlos y realizar acciones correctivas",
             "respuestaF1": "Informarlos únicamente al auditor líder",
             "respuestaF2": "Ignorarlos si no son críticos"
         },
         {
-            "id": 16,
+            "id": 28,
             "texto": "¿Cuál es el objetivo de la fase de seguimiento y cierre de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Verificar la implementación de acciones correctivas",
             "respuestaF1": "Realizar una nueva auditoría para validar los hallazgos anteriores",
             "respuestaF2": "Recopilar más evidencia para el informe final"
         },
         {
-            "id": 17,
+            "id": 93,
             "texto": "¿Cuál es la diferencia entre una auditoría interna y una auditoría externa según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Los auditores internos evalúan el desempeño del SGSI, mientras que los externos evalúan el cumplimiento legal",
             "respuestaF1": "Las auditorías internas se realizan anualmente, mientras que las externas son trimestrales",
             "respuestaF2": "Los auditores internos están certificados, mientras que los externos no requieren certificación"
         },
         {
-            "id": 18,
+            "id": 70,
             "texto": "¿Cuál es el propósito de la fase de preparación de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Definir los objetivos y el alcance de la auditoría",
             "respuestaF1": "Obtener aprobación del comité de auditoría",
             "respuestaF2": "Realizar entrevistas con los empleados de la organización"
         },
         {
-            "id": 19,
+            "id": 85,
             "texto": "¿Qué se evalúa durante la fase de ejecución de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Efectividad de los controles de seguridad",
             "respuestaF1": "Cumplimiento de los requisitos legales",
             "respuestaF2": "Satisfacción de los clientes"
         },
         {
-            "id": 20,
+            "id": 76,
             "texto": "¿Cuál es el propósito de la fase de informe de una auditoría interna según la norma ISO/IEC 27007?",
             "respuestaCorrecta": "Presentar los hallazgos y las recomendaciones a la alta dirección",
             "respuestaF1": "Validar los resultados de la auditoría con otras partes interesadas",
