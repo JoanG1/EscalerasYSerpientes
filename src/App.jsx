@@ -27,16 +27,19 @@ const App = () => {
     if(playerPosition + diceResult <= 99 ){
       const newPosition = playerPosition + diceResult
       setPlayerPosition(newPosition)
-      if(turno)setTurno(false)
-      if(!turno)setTurno(true)
+      
       console.log(turno)
     }
 
-    if(playerPosition == 99){
+    if (playerPosition == 99){
 
-      setContador1(Contador1 +1)
-      setPlayerPosition(0)
-    }
+       if(!turno){
+
+        setPlayerPosition(0)
+        setTurno(true)
+       }
+    
+  }
     
   };
 
@@ -53,8 +56,8 @@ const App = () => {
 
   const handleNewNombres = (Jugador1,Jugador2) => {
 
-    if (Jugador1 === "julieth"){
-      setJugador1("MOCOSA")
+    if (Jugador1 === "maria"){
+      setJugador1("maria")
       setJugador2(Jugador2)
     }else{
 
@@ -69,11 +72,23 @@ const App = () => {
     setFlagRegistro(true)
   }
 
+  const handleNewRespuesta = (position) => {
+
+    if(!turno && position){
+
+      setContador1(Contador1 +1)
+
+    }else if (turno && position){
+
+      setContador2(Contador2+1)
+    }
+  }
+
  
   return (
     <div className='PrincipalDiv'>
 
-      <OverlayCard position= {playerPosition} handleNewPosition = {handleNewPosition} />    
+      <OverlayCard position= {playerPosition} handleNewPosition = {handleNewPosition} handleNewRespuesta = {handleNewRespuesta} />    
       <Contador puntajeJugador1={Contador1} puntajeJugador2={Contador2} nombreJugador1 = {Jugador1} nombreJugador2 = {Jugador2} />
 
       <div className='DivRollDice'>
