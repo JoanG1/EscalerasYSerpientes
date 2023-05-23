@@ -1,0 +1,37 @@
+.PanelRegistro{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px 15px 5px;
+    width: 400px;
+    height: 190px;
+    top: 40%;
+    left: 40%; 
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.Input1{
+
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px 0px #0000003c;
+    border-bottom: 2px solid #000000;
+}
+
+.Input2{
+
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 5px 20px 5px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px 0px #0000003c;
+    border-bottom: 2px solid #000000;
+
+}

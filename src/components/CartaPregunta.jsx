@@ -8,6 +8,11 @@ let contador = 0
 
 const OverlayCard = React.memo((props) => {
 
+  if (contador == 20){
+
+    contador = 0
+  }
+
   const resultado = casillasPreguntas.casillas.find((elemento)=>elemento === props.position)
 
   const handlePosition = (position) => {
@@ -28,9 +33,6 @@ const OverlayCard = React.memo((props) => {
 
     const pregunta = preguntasData.preguntas[contador]
     contador++
-    const positionRelative = casillasPreguntas.casillas.indexOf(props.position)
-
-    const finalPosition = casillasPreguntas.casillas[positionRelative]
 
     return (
       <div className='cartaPregunta'>

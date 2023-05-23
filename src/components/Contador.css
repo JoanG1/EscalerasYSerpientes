@@ -1,0 +1,31 @@
+.Puntajes{
+   position: absolute;
+   display: flex;
+   height: 40px;
+   left: 58%;
+}
+
+.puntaje1{
+
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    height: auto;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.puntaje2{
+    
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    height: auto;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}

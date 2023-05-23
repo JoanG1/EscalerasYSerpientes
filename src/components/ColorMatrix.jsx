@@ -11,8 +11,22 @@ const ColorMatrix = React.memo((props) => {
     const rows = 10;
     const columns = 10;
   
-    // Generar la matriz de colores
     const matrix = []
+
+    const TurnoColor = () => {
+
+      if (props.turno == false){
+
+        return "#C8D5B9"
+      }else{
+
+        return "#000000"
+      }
+
+
+    }
+
+    console.log (TurnoColor())
 
   
     for (let raw = rows-1; raw >= 0; raw--) {
@@ -30,7 +44,7 @@ const ColorMatrix = React.memo((props) => {
               position={(raw*10)+column}
               key={`${raw}-${column}`}
               className="color-cell"
-              style={{ backgroundColor: "#C8D5B9", border: "1px solid #000000"}}>
+              style={{ backgroundColor: TurnoColor(), border: "1px solid #000000"}}>
               {(raw*10)+column}
               </div>
             );
@@ -62,7 +76,7 @@ const ColorMatrix = React.memo((props) => {
               position={(raw*10)+column}
               key={`${raw}-${column}`}
               className="color-cell"
-              style={{ backgroundColor: "#C8D5B9", border: "1px solid #000000"}}>
+              style={{ backgroundColor: TurnoColor(), border: "1px solid #000000"}}>
               {(raw*10)+column}
               </div>
             );
