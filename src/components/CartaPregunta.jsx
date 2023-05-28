@@ -28,6 +28,11 @@ const OverlayCard = React.memo((props) => {
       props.handleNewRespuesta(position)
     }
 
+    if (position == false){
+
+      props.handleNewPosition(0)
+    }
+
   }
 
 

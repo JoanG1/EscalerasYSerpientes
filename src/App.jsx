@@ -51,7 +51,16 @@ const App = () => {
 
   const handleNewPosition = (position) => {
 
-    setPlayerPosition(position)
+    if (position !== 0){
+
+      setPlayerPosition(position)
+
+    }else{
+
+      setPlayerPosition(playerPosition+1)
+    }
+
+    
   }
 
   const handleNewNombres = (Jugador1,Jugador2) => {
