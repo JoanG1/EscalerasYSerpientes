@@ -24,6 +24,13 @@ const OverlayCard = React.memo((props) => {
       const finalPosition = casillasPreguntas.casillasRespuesta[positionRelative]
 
       props.handleNewPosition(finalPosition)
+
+      props.handleNewRespuesta(position)
+    }
+
+    if (position == false){
+
+      props.handleNewPosition(0)
     }
 
   }

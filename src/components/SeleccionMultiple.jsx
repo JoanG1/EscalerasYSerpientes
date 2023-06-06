@@ -18,7 +18,7 @@ const CartaSeleccionMultiple = (props) => {
       console.log("correcta")
         
     }else{
-      console.log("falsa")
+      props.handlePosition(false)
     }
   }
 
